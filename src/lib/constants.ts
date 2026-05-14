@@ -63,7 +63,7 @@ export const profilePhoto = Photo;
 // Social Links
 export const GitHubProfile = "https://github.com/zeeshan4466";
 export const LinkedInProfile = "https://www.linkedin.com/in/zeeshan-zulfiqar-dev/";
-// export const MediumProfile = "https://medium.com/@zeeshanzulfiqar";
+export const MediumProfile = "https://medium.com/@zeeshanzulfiqar";
 export const InstagramProfile = "https://www.instagram.com/zeeshan.zulfiqar4466/";
 
 // Hero Section
