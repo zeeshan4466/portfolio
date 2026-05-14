@@ -1,0 +1,602 @@
+import { BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
+import Photo from "../assets/img/myProfilePhoto.jpg";
+import MaleAvator from "../assets/img/icons/male-avatar.png";
+// import FemaleAvator from "../assets/img/icons/female-avatar.png";
+import ReactIcon from "../assets/img/icons/skills-tools/react.png";
+import AndroidStudioIcon from "../assets/img/icons/skills-tools/androidstudio.png";
+import BootstrapIcon from "../assets/img/icons/skills-tools/bootstrap.png";
+import ChromeIcon from "../assets/img/icons/skills-tools/chrome.png";
+import CSSIcon from "../assets/img/icons/skills-tools/css.png";
+import ExpoIcon from "../assets/img/icons/skills-tools/expo.png";
+import FirebaseIcon from "../assets/img/icons/skills-tools/firebase.png";
+import GithubIcon from "../assets/img/icons/skills-tools/github.png";
+import HTMLIcon from "../assets/img/icons/skills-tools/html.png";
+import ReduxIcon from "../assets/img/icons/skills-tools/redux.png";
+import JavaScriptIcon from "../assets/img/icons/skills-tools/javascript.png";
+import TailwindCSSIcon from "../assets/img/icons/skills-tools/tailwindcss.png";
+import TypeScriptIcon from "../assets/img/icons/skills-tools/typescript.png";
+import VSCodeIcon from "../assets/img/icons/skills-tools/vscode.png";
+import LinkedInIcon from "../assets/img/icons/social-icons/linkedin.png";
+import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
+import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
+import MediumIcon from "../assets/img/icons/social-icons/medium.png";
+
+import EventHubProject from "../assets/img/projects/eventhubProject.png";
+import MaxFitProject from "../assets/img/projects/maxfitProject.png";
+import TagExtractorProject from "../assets/img/projects/tagextractor.png";
+import PushNotificationProject from "../assets/img/projects/pushnotification.png";
+import LailaAppProject from "../assets/img/projects/lailaapp.png";
+import AppleHealthExpoProject from "../assets/img/projects/apple-health-expo.png";
+
+import web1 from "../assets/img/sliderwebp/web1.webp";
+import web2 from "../assets/img/sliderwebp/web2.webp";
+import web3 from "../assets/img/sliderwebp/web3.webp";
+import web4 from "../assets/img/sliderwebp/web4.webp";
+import web5 from "../assets/img/sliderwebp/web1.webp";
+import web6 from "../assets/img/sliderwebp/web2.webp";
+import web7 from "../assets/img/sliderwebp/web3.webp";
+import web8 from "../assets/img/sliderwebp/web4.webp";
+import web9 from "../assets/img/sliderwebp/web1.webp";
+
+import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
+import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
+import mobile3 from "../assets/img/sliderwebp/mobile2.webp";
+import mobile4 from "../assets/img/sliderwebp/mobile4.webp";
+import mobile5 from "../assets/img/sliderwebp/mobile5.webp";
+import mobile6 from "../assets/img/sliderwebp/mobile6.webp";
+import mobile7 from "../assets/img/sliderwebp/mobile7.webp";
+import mobile8 from "../assets/img/sliderwebp/mobile8.webp";
+import mobile9 from "../assets/img/sliderwebp/mobile9.webp";
+
+export const NavLinks = [
+  { id: 1, name: "Home", url: "/#Hero", icon: House },
+  { id: 2, name: "Experience", url: "/#Experience", icon: BriefcaseBusiness },
+  { id: 3, name: "Work", url: "/#Work", icon: FolderGit2 },
+  { id: 3, name: "Reviews", url: "/#Testimonials", icon: Star },
+];
+
+export const firstName = "Zeeshan";
+export const lastName = "Zulfiqar";
+export const fullName = "Zeeshan Zulfiqar";
+export const profilePhoto = Photo;
+
+// Social Links
+export const GitHubProfile = "https://github.com/zeeshan4466";
+export const LinkedInProfile = "https://www.linkedin.com/in/zeeshan-zulfiqar-dev/";
+// export const MediumProfile = "https://medium.com/@zeeshanzulfiqar";
+export const InstagramProfile = "https://www.instagram.com/zeeshan.zulfiqar4466/";
+
+// Hero Section
+export const HeroSectionHeading =
+  "Full Stack Developer </br> Crafting Scalable Web Apps";
+// export const HeroSectionHeading = "Creative Frontend Developer <br/> for Scalable Web & Mobile Apps ";
+export const HeroSectionSubHeading =
+  "Building fast, elegant interfaces with React, Java, Fast API and Tailwind CSS.";
+export const HeroLetsConnectButton = "Let's Connect";
+export const HeroLetsSeeMyWorkButton = "See My Work";
+
+// Image Slider Section
+export const SliderImagesData = [
+  {
+    id: 1,
+    type: "phone",
+    image: mobile1,
+    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    githubUrl: "",
+  },
+  {
+    id: 2,
+    type: "web",
+    image: web1,
+    projectUrl: "https://tag-extractor.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+  },
+  {
+    id: 3,
+    type: "phone",
+    image: mobile2,
+    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    githubUrl: "",
+  },
+  {
+    id: 4,
+    type: "web",
+    image: web2,
+    projectUrl: "https://lenob-project.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
+  },
+  {
+    id: 5,
+    type: "phone",
+    image: mobile3,
+    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    githubUrl: "",
+  },
+  {
+    id: 6,
+    type: "web",
+    image: web3,
+    projectUrl: "https://lenob-project.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
+  },
+  {
+    id: 7,
+    type: "phone",
+    image: mobile4,
+    projectUrl: "",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+  },
+  {
+    id: 8,
+    type: "web",
+    image: web4,
+    projectUrl: "https://online-image-compressor-1a.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Online-Image-Compressor",
+  },
+  {
+    id: 9,
+    type: "phone",
+    image: mobile5,
+    projectUrl: "",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+  },
+  {
+    id: 10,
+    type: "web",
+    image: web5,
+    projectUrl: "https://tag-extractor.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+  },
+  {
+    id: 11,
+    type: "phone",
+    image: mobile6,
+    projectUrl: "",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+  },
+  {
+    id: 12,
+    type: "web",
+    image: web6,
+    projectUrl: "https://lenob-project.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
+  },
+  {
+    id: 13,
+    type: "phone",
+    image: mobile7,
+    projectUrl: "",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+  },
+  {
+    id: 14,
+    type: "web",
+    image: web7,
+    projectUrl: "https://lenob-project.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
+  },
+  {
+    id: 15,
+    type: "phone",
+    image: mobile8,
+    projectUrl: "",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+  },
+  {
+    id: 16,
+    type: "web",
+    image: web8,
+    projectUrl: "https://online-image-compressor-1a.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Online-Image-Compressor",
+  },
+  {
+    id: 17,
+    type: "phone",
+    image: mobile9,
+    projectUrl: "",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+  },
+  {
+    id: 18,
+    type: "web",
+    image: web9,
+    projectUrl: "https://tag-extractor.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+  },
+];
+
+// Project Section
+export const ProjectsSectionHeading = "My Recent Work";
+export const ProjectsSectionSubHeading =
+  "Check out what I've been working on lately.";
+export const ProjectsSectionGithubButton = "View More on";
+export const ProjectsCardViewLiveSiteButton = "View Live Site";
+export const ProjectCardsData = [
+  {
+    id: 1,
+    title: "EventHub App",
+    description:
+      "EventHub App, developed in React Native & Firebase, served as my internship practice application at MikroStar Tech.",
+    image: EventHubProject,
+    type: "Personal",
+    year: "2023",
+    technologies: ["React Native", "JavaScript", "FireBase"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App/tree/main/EventHubAppScreenshots",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+  },
+  {
+    id: 2,
+    title: "Maxfit App",
+    description: "MaxFit App, developed in React Native & Firebase.",
+    image: MaxFitProject,
+    type: "Personal",
+    year: "2024",
+    technologies: ["React Native", "JavaScript", "FireBase"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl: "https://github.com/Haider-Mukhtar/ReactNative-MaxFit-App",
+    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-MaxFit-App",
+  },
+  {
+    id: 3,
+    title: "Tag Extractor",
+    description:
+      "Youtube Tag Extractor using Vite, React, TypeScript, Tailwind CSS.",
+    image: TagExtractorProject,
+    type: "Personal",
+    year: "2025",
+    technologies: ["React", "TypeScript", "TailwindCSS", "Vite"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl: "https://tag-extractor.vercel.app/",
+    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+  },
+  {
+    id: 4,
+    title: "Firebase Push Notifications",
+    description: "React Native - Push Notification - Firebase",
+    image: PushNotificationProject,
+    type: "Personal",
+    year: "2025",
+    technologies: [
+      "React Native",
+      "TypeScript",
+      "FireBase",
+      "Push Notification",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification?tab=readme-ov-file#demo",
+    githubUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification",
+  },
+  {
+    id: 5,
+    title: "Laila App",
+    description: "An innovative app enhancing spiritual experiences through real-time transcriptions of live Khutbahs and verse-by-verse Quran translations in multiple languages.",
+    image: LailaAppProject,
+    type: "Professional",
+    year: "2025",
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    githubUrl:
+      "",
+  },
+  {
+    id: 6,
+    title: "Apple Health with Expo",
+    description: "Seamless Integration of Apple Health into Your React Native Expo App ",
+    image: AppleHealthExpoProject,
+    type: "Personal",
+    year: "2025",
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "React Native Health",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://medium.com/javascript-in-plain-english/seamless-integration-of-apple-health-into-your-react-native-expo-app-7e9ecade0ae8",
+    githubUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-Apple-Health-IOS",
+  },
+];
+
+// Testimonials Section - FemaleAvator
+export const TestimonialsSectionHeading = "What Clients Say About Me";
+export const TestimonialsSectionSubHeading =
+  "Don't just take my word for it. See what my clients have to say about my work.";
+export const testimonialsData = [
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Haider is a talented React Native developer with a strong grasp of building clean, user-friendly mobile applications. He is proactive, reliable, and works well within a team. His problem-solving skills and commitment to quality make him a valuable asset. I highly recommend Haider for any React Native or mobile development role.",
+    image: MaleAvator,
+    name: "Muhammad Hussain",
+    role: "Python Developer",
+  },
+  {
+    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    image: MaleAvator,
+    name: "Mohsin Raza",
+    role: "Senior Software Engineer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Haider is a talented React Native developer with a strong grasp of building clean, user-friendly mobile applications. He is proactive, reliable, and works well within a team. His problem-solving skills and commitment to quality make him a valuable asset. I highly recommend Haider for any React Native or mobile development role.",
+    image: MaleAvator,
+    name: "Muhammad Hussain",
+    role: "Python Developer",
+  },
+  {
+    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    image: MaleAvator,
+    name: "Mohsin Raza",
+    role: "Senior Software Engineer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Haider is a talented React Native developer with a strong grasp of building clean, user-friendly mobile applications. He is proactive, reliable, and works well within a team. His problem-solving skills and commitment to quality make him a valuable asset. I highly recommend Haider for any React Native or mobile development role.",
+    image: MaleAvator,
+    name: "Muhammad Hussain",
+    role: "Python Developer",
+  },
+  {
+    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    image: MaleAvator,
+    name: "Mohsin Raza",
+    role: "Senior Software Engineer",
+  },
+];
+
+// Experience Section
+export const ExperienceSectionHeading = "Work Experience";
+export const ExperienceSectionSubHeading =
+  "Here's a look at my current role and previous experiences.";
+export const ExperienceData = [
+  {
+    company: "DigiMark Developers",
+    position: "Junior Software Engineer",
+    duration: "Dec 2024 - Present",
+    location: "Johar Town, Lahore, Pakistan",
+    description:
+      "Acquired proficiency in Tailwind CSS, JavaScript, TypeScript, React, React Native and Expo. Gained hands-on experience in developing visually appealing and user-friendly web and mobile interfaces. Crafted responsive web designs that enhance user experience.",
+    technologies: [
+      "Tailwind CSS",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "Redux Toolkit",
+      "GitHub",
+    ],
+    type: "current",
+  },
+  {
+    company: "MikroStar Tech (SMC-Pvt.) Ltd.",
+    position: "Mobile Application Development - Internship",
+    duration: "Oct 2023 - Jan 2024",
+    location: "Green Acres Housing Society, Lahore, Pakistan",
+    description:
+      "Developed interactive mobile applications using Android Studio, Java, JavaScript, and Firebase. Dedicated significant time to mastering React Native for enhanced mobile solutions. Completed a comprehensive project demonstrating advanced mobile app development skills.",
+    technologies: [
+      "JavaScript",
+      "React Native",
+      "Android Studio",
+      "Firebase",
+      "GitHub",
+    ],
+    type: "previous",
+  },
+  {
+    company: "Cosmosoft Business Solutions Pvt. Ltd.",
+    position: "Front-End Web Development - Internship",
+    duration: "July 2022 - Sep 2022",
+    location: "Johar Town, Lahore, Pakistan",
+    description:
+      "Acquired proficiency in HTML, CSS, Tailwind CSS, Bootstrap, and jQuery. Gained hands-on experience in developing visually appealing and user-friendly web interfaces. Crafted responsive web designs that enhance user experience.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap",
+      "jQuery",
+      "JavaScript",
+    ],
+    type: "previous",
+  },
+];
+
+// About Section
+export const AboutSectionHeading = "A Glimpse into My World";
+export const AboutSectionSubHeading =
+  "Here, you'll find a snapshot of my coding activity, the tools I master, my key skills, and ways to connect with me.";
+export const AboutSectionSkillsHeading = "My Skills & Tools";
+export const SkillsData1 = [
+  {
+    id: 1,
+    name: "Android Studio",
+    icon: AndroidStudioIcon,
+  },
+  {
+    id: 2,
+    name: "BootStrap",
+    icon: BootstrapIcon,
+  },
+  {
+    id: 3,
+    name: "Chrome",
+    icon: ChromeIcon,
+  },
+  {
+    id: 4,
+    name: "CSS",
+    icon: CSSIcon,
+  },
+  {
+    id: 5,
+    name: "Expo",
+    icon: ExpoIcon,
+  },
+  {
+    id: 6,
+    name: "Firebase",
+    icon: FirebaseIcon,
+  },
+  {
+    id: 7,
+    name: "Github",
+    icon: GithubIcon,
+  },
+  {
+    id: 8,
+    name: "HTML",
+    icon: HTMLIcon,
+  },
+  {
+    id: 9,
+    name: "JavaScript",
+    icon: JavaScriptIcon,
+  },
+  {
+    id: 10,
+    name: "React",
+    icon: ReactIcon,
+  },
+  {
+    id: 11,
+    name: "React Native",
+    icon: ReactIcon,
+  },
+  {
+    id: 12,
+    name: "Redux Toolkit",
+    icon: ReduxIcon,
+  },
+  {
+    id: 13,
+    name: "Tailwind CSS",
+    icon: TailwindCSSIcon,
+  },
+  {
+    id: 14,
+    name: "TypeScript",
+    icon: TypeScriptIcon,
+  },
+  {
+    id: 15,
+    name: "VS Code",
+    icon: VSCodeIcon,
+  },
+];
+export const SkillsData2 = [
+  {
+    id: 1,
+    name: "VS Code",
+    icon: VSCodeIcon,
+  },
+  {
+    id: 2,
+    name: "TypeScript",
+    icon: TypeScriptIcon,
+  },
+  {
+    id: 3,
+    name: "Tailwind CSS",
+    icon: TailwindCSSIcon,
+  },
+  {
+    id: 4,
+    name: "Redux Toolkit",
+    icon: ReduxIcon,
+  },
+  {
+    id: 5,
+    name: "React Native",
+    icon: ReactIcon,
+  },
+  {
+    id: 6,
+    name: "React",
+    icon: ReactIcon,
+  },
+  {
+    id: 7,
+    name: "JavaScript",
+    icon: JavaScriptIcon,
+  },
+  {
+    id: 8,
+    name: "HTML",
+    icon: HTMLIcon,
+  },
+  {
+    id: 9,
+    name: "Github",
+    icon: GithubIcon,
+  },
+  {
+    id: 10,
+    name: "Firebase",
+    icon: FirebaseIcon,
+  },
+  {
+    id: 11,
+    name: "Expo",
+    icon: ExpoIcon,
+  },
+  {
+    id: 12,
+    name: "CSS",
+    icon: CSSIcon,
+  },
+  {
+    id: 13,
+    name: "BootStrap",
+    icon: BootstrapIcon,
+  },
+  {
+    id: 14,
+    name: "Chrome",
+    icon: ChromeIcon,
+  },
+  {
+    id: 15,
+    name: "Android Studio",
+    icon: AndroidStudioIcon,
+  },
+];
+export {
+  LinkedInIcon,
+  DiscordIcon,
+  InstagramIcon,
+  MediumIcon,
+  GithubIcon,
+};
+
+// Footer Section
+export const FooterSectionHeading = "Anything in Mind?";
+export const FooterSectionSubHeading = "Let's Talk";
+export const FooterSectionBtn = "Let's Talk"
