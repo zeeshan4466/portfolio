@@ -11,7 +11,7 @@ const ImagesSliderSection = () => {
         {SliderImagesData.map((item) => (
           <div className="hover:scale-105 transition-transform duration-500 py-4 relative group">
             <img
-              className="h-100 mx-4"
+              className="h-100 mx-4 w-100 rounded-md object-cover object-top"
               src={item.image}
               alt="Slider_Image"
             />
@@ -48,7 +48,7 @@ const ImagesSliderSection = () => {
         {SliderImagesData.map((item) => (
           <div className="hover:scale-105 transition-transform duration-500 py-4 relative group">
             <img
-              className="h-100 mx-4 hidden lg:block"
+              className="h-100 mx-4 w-100 rounded-md object-cover object-top hidden lg:block"
               src={item.image}
               alt="Slider_Image"
             />

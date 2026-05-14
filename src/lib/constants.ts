@@ -61,7 +61,7 @@ export const profilePhoto = Photo;
 // Social Links
 export const GitHubProfile = "https://github.com/zeeshan4466";
 export const LinkedInProfile = "https://www.linkedin.com/in/zeeshan-zulfiqar-dev/";
-export const MediumProfile = "https://medium.com/@zeeshanzulfiqar";
+export const MediumProfile = "https://medium.com/@zeeshan.zulfiqar11/";
 export const InstagramProfile = "https://www.instagram.com/zeeshan.zulfiqar4466/";
 
 // Hero Section
@@ -76,130 +76,46 @@ export const HeroLetsSeeMyWorkButton = "See My Work";
 export const SliderImagesData = [
   {
     id: 1,
-    type: "phone",
-    image: mobile1,
-    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    type: "web",
+    image: ScintiaFull,
+    projectUrl: "https://scintia.ai/",
     githubUrl: "",
   },
-  {
+   {
     id: 2,
     type: "web",
-    image: web1,
-    projectUrl: "https://tag-extractor.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
-  },
-  {
-    id: 3,
-    type: "phone",
-    image: mobile2,
-    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    image: GlammateFull,
+    projectUrl: "https://www.glammateai.com/",
     githubUrl: "",
   },
-  {
+   {
+    id: 3,
+    type: "web",
+    image: TelehealthYouFull,
+    projectUrl: "https://telehealthyou.com/",
+    githubUrl: "",
+  },
+   {
     id: 4,
     type: "web",
-    image: web2,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
-  },
-  {
-    id: 5,
-    type: "phone",
-    image: mobile3,
-    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    image: SurviveAppFull,
+    projectUrl: "https://survivethetrap.ai/",
     githubUrl: "",
   },
-  {
-    id: 6,
+   {
+    id: 5,
     type: "web",
-    image: web3,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
+    image: PimpactFull,
+    projectUrl: "https://pimpact.io/",
+    githubUrl: "",
   },
-  {
-    id: 7,
-    type: "phone",
-    image: mobile4,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
-  {
-    id: 8,
-    type: "web",
-    image: web4,
-    projectUrl: "https://online-image-compressor-1a.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Online-Image-Compressor",
-  },
-  {
-    id: 9,
-    type: "phone",
-    image: mobile5,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
-  {
-    id: 10,
-    type: "web",
-    image: web5,
-    projectUrl: "https://tag-extractor.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
-  },
-  {
-    id: 11,
-    type: "phone",
-    image: mobile6,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
-  {
-    id: 12,
-    type: "web",
-    image: web6,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
-  },
-  {
-    id: 13,
-    type: "phone",
-    image: mobile7,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
-  {
-    id: 14,
-    type: "web",
-    image: web7,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
-  },
-  {
-    id: 15,
-    type: "phone",
-    image: mobile8,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
-  {
-    id: 16,
-    type: "web",
-    image: web8,
-    projectUrl: "https://online-image-compressor-1a.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Online-Image-Compressor",
-  },
-  {
-    id: 17,
-    type: "phone",
-    image: mobile9,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
-  {
-    id: 18,
-    type: "web",
-    image: web9,
-    projectUrl: "https://tag-extractor.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
-  },
+  //  {
+  //   id: 6,
+  //   type: "web",
+  //   image: PrescribeNowFull,
+  //   projectUrl: "https://prescribenow.com/",
+  //   githubUrl: "",
+  // },
 ];
 
 // Project Section
