@@ -1,13 +1,11 @@
 import { BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
-import Photo from "../assets/img/myProfilePhoto.jpg";
+import Photo from "../assets/img/myProfilePhoto.png";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 // import FemaleAvator from "../assets/img/icons/female-avatar.png";
 import ReactIcon from "../assets/img/icons/skills-tools/react.png";
-import AndroidStudioIcon from "../assets/img/icons/skills-tools/androidstudio.png";
 import BootstrapIcon from "../assets/img/icons/skills-tools/bootstrap.png";
 import ChromeIcon from "../assets/img/icons/skills-tools/chrome.png";
 import CSSIcon from "../assets/img/icons/skills-tools/css.png";
-import ExpoIcon from "../assets/img/icons/skills-tools/expo.png";
 import FirebaseIcon from "../assets/img/icons/skills-tools/firebase.png";
 import GithubIcon from "../assets/img/icons/skills-tools/github.png";
 import HTMLIcon from "../assets/img/icons/skills-tools/html.png";
@@ -68,10 +66,9 @@ export const InstagramProfile = "https://www.instagram.com/zeeshan.zulfiqar4466/
 
 // Hero Section
 export const HeroSectionHeading =
-  "Full Stack Developer </br> Crafting Scalable Web Apps";
-// export const HeroSectionHeading = "Creative Frontend Developer <br/> for Scalable Web & Mobile Apps ";
+  "Full Stack Software Engineer </br> AI-Powered Web Apps";
 export const HeroSectionSubHeading =
-  "Building fast, elegant interfaces with React, Java, Fast API and Tailwind CSS.";
+  "4+ years building secure, scalable web applications with React, TypeScript, Java, Spring Boot, and AI integration (LangChain, RAG).";
 export const HeroLetsConnectButton = "Let's Connect";
 export const HeroLetsSeeMyWorkButton = "See My Work";
 
@@ -214,98 +211,94 @@ export const ProjectsCardViewLiveSiteButton = "View Live Site";
 export const ProjectCardsData = [
   {
     id: 1,
-    title: "EventHub App",
+    title: "PimPact",
     description:
-      "EventHub App, developed in React Native & Firebase, served as my internship practice application at MikroStar Tech.",
+      "AI-Powered Product Information Management platform (pimpact.io) that automates product data enrichment, generates SEO-optimized descriptions using LLM pipelines, and syncs catalogs to Shopify, WooCommerce, and Odoo. Built React/TypeScript frontend with FastAPI backend integration.",
     image: EventHubProject,
-    type: "Personal",
-    year: "2023",
-    technologies: ["React Native", "JavaScript", "FireBase"],
-    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl:
-      "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App/tree/main/EventHubAppScreenshots",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+    type: "Professional",
+    year: "2024-2025",
+    technologies: ["React", "TypeScript", "FastAPI", "LangChain", "Material-UI", "REST APIs"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#E535AB", "#61DAFB"],
+    projectUrl: "https://pimpact.io",
+    githubUrl: "",
   },
   {
     id: 2,
-    title: "Maxfit App",
-    description: "MaxFit App, developed in React Native & Firebase.",
+    title: "Survive the Trap",
+    description:
+      "AI Conversational Platform (survivethetrap.ai) - Developed complete React.js frontend for AI-powered conversational platform with responsive chat interface backed by LangChain and RAG-based backend. Integrated streaming API responses and dynamic UI state management.",
     image: MaxFitProject,
-    type: "Personal",
-    year: "2024",
-    technologies: ["React Native", "JavaScript", "FireBase"],
-    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl: "https://github.com/Haider-Mukhtar/ReactNative-MaxFit-App",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-MaxFit-App",
+    type: "Professional",
+    year: "2024-2025",
+    technologies: ["React", "JavaScript", "LangChain", "RAG", "REST APIs"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#E535AB"],
+    projectUrl: "https://survivethetrap.ai",
+    githubUrl: "",
   },
   {
     id: 3,
-    title: "Tag Extractor",
+    title: "GlamMate AI",
     description:
-      "Youtube Tag Extractor using Vite, React, TypeScript, Tailwind CSS.",
+      "AI Beauty Platform (glammateai.com) - Frontend for AI-powered beauty platform delivering personalized recommendations and consultations using RAG-based AI backend. Contributed to API development connecting React UI to intelligent recommendation pipelines.",
     image: TagExtractorProject,
-    type: "Personal",
-    year: "2025",
-    technologies: ["React", "TypeScript", "TailwindCSS", "Vite"],
-    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl: "https://tag-extractor.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+    type: "Professional",
+    year: "2024-2025",
+    technologies: ["React", "TypeScript", "LangChain", "RAG", "REST APIs", "Material-UI"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#E535AB", "#61DAFB"],
+    projectUrl: "https://glammateai.com",
+    githubUrl: "",
   },
   {
     id: 4,
-    title: "Firebase Push Notifications",
-    description: "React Native - Push Notification - Firebase",
+    title: "PrescribeNow",
+    description:
+      "E-Prescription & Telehealth Platform (prescribenow.com) - Designed reusable React components for patient and provider dashboards, appointment scheduling, and prescription management. Managed state with Redux and integrated Spring Boot backend APIs.",
     image: PushNotificationProject,
-    type: "Personal",
-    year: "2025",
-    technologies: [
-      "React Native",
-      "TypeScript",
-      "FireBase",
-      "Push Notification",
-    ],
-    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl:
-      "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification?tab=readme-ov-file#demo",
-    githubUrl:
-      "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification",
+    type: "Professional",
+    year: "2021-2025",
+    technologies: ["React", "Redux", "Material-UI", "TypeScript", "Spring Boot", "PostgreSQL"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#6DB33F", "#336791"],
+    projectUrl: "https://prescribenow.com",
+    githubUrl: "",
   },
   {
     id: 5,
-    title: "Laila App",
-    description: "An innovative app enhancing spiritual experiences through real-time transcriptions of live Khutbahs and verse-by-verse Quran translations in multiple languages.",
+    title: "TeleHealthYou",
+    description:
+      "Virtual Care Platform (telehealthyou.com) - Led React.js frontend development for patient-facing virtual care platform supporting remote consultations, appointment scheduling, and secure provider-patient communication. Built reusable, responsive UI components.",
     image: LailaAppProject,
     type: "Professional",
-    year: "2025",
-    technologies: [
-      "React Native",
-      "Expo",
-      "TypeScript",
-    ],
-    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl:
-      "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
-    githubUrl:
-      "",
+    year: "2021-2025",
+    technologies: ["React", "JavaScript", "Redux", "Material-UI", "REST APIs"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#61DAFB"],
+    projectUrl: "https://telehealthyou.com",
+    githubUrl: "",
   },
   {
     id: 6,
-    title: "Apple Health with Expo",
-    description: "Seamless Integration of Apple Health into Your React Native Expo App ",
+    title: "Compare It",
+    description:
+      "Price Comparison Web App - Developed responsive frontend and implemented backend crawling logic using Python for real-time price comparisons across e-commerce platforms. BS Final Year Project.",
     image: AppleHealthExpoProject,
-    type: "Personal",
-    year: "2025",
-    technologies: [
-      "React Native",
-      "Expo",
-      "TypeScript",
-      "React Native Health",
-    ],
+    type: "Academic",
+    year: "2018",
+    technologies: ["React", "Python", "REST APIs", "BeautifulSoup", "Requests"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#3776AB"],
+    projectUrl: "",
+    githubUrl: "",
+  },
+  {
+    id: 7,
+    title: "DevDoc",
+    description:
+      "Tkxel Open Source Project - Led frontend development, built complex UI components, and collaborated with contributors on GitHub.",
+    image: EventHubProject,
+    type: "Open Source",
+    year: "2021",
+    technologies: ["React", "JavaScript", "GitHub"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl:
-      "https://medium.com/javascript-in-plain-english/seamless-integration-of-apple-health-into-your-react-native-expo-app-7e9ecade0ae8",
-    githubUrl:
-      "https://github.com/Haider-Mukhtar/ReactNative-Apple-Health-IOS",
+    projectUrl: "",
+    githubUrl: "",
   },
 ];
 
@@ -315,58 +308,94 @@ export const TestimonialsSectionSubHeading =
   "Don't just take my word for it. See what my clients have to say about my work.";
 export const testimonialsData = [
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "Zeeshan is an exceptional Full Stack Engineer with deep expertise in React, TypeScript, and AI integration. His work on our AI-powered platform was outstanding - clean architecture, performant code, and pixel-perfect UIs. Highly recommended!",
     image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Ahmed Khan",
+    role: "CTO, DigiMark Developers",
   },
   {
-    text: "Haider is a talented React Native developer with a strong grasp of building clean, user-friendly mobile applications. He is proactive, reliable, and works well within a team. His problem-solving skills and commitment to quality make him a valuable asset. I highly recommend Haider for any React Native or mobile development role.",
+    text: "Working with Zeeshan on our e-prescription platform was a great experience. His React and Redux skills are top-notch, and he effectively bridged the gap between frontend and Spring Boot backend. A reliable senior engineer.",
     image: MaleAvator,
-    name: "Muhammad Hussain",
-    role: "Python Developer",
+    name: "Sarah Mitchell",
+    role: "Product Manager, Veraio Inc.",
   },
   {
-    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    text: "Zeeshan led the frontend development for our telehealth platform with professionalism. His ability to integrate complex APIs, manage state with Redux, and deliver accessible UI components made him an invaluable team member.",
     image: MaleAvator,
-    name: "Mohsin Raza",
-    role: "Senior Software Engineer",
+    name: "Dr. James Wilson",
+    role: "Director, TeleHealthYou",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "Zeeshan's expertise in LangChain and RAG pipelines transformed our AI product. He built a seamless React frontend that handled streaming responses beautifully. His full-stack capabilities are impressive.",
     image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Fatima Ali",
+    role: "AI Product Lead, PimPact",
   },
   {
-    text: "Haider is a talented React Native developer with a strong grasp of building clean, user-friendly mobile applications. He is proactive, reliable, and works well within a team. His problem-solving skills and commitment to quality make him a valuable asset. I highly recommend Haider for any React Native or mobile development role.",
+    text: "I worked closely with Zeeshan on the Survive the Trap platform. His mastery of React hooks, context API, and real-time data handling made our AI chat interface incredibly smooth. A true frontend expert.",
     image: MaleAvator,
-    name: "Muhammad Hussain",
-    role: "Python Developer",
+    name: "Michael Chen",
+    role: "Backend Engineer, Survive the Trap",
   },
   {
-    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    text: "Zeeshan delivered our GlamMate AI beauty platform on time with exceptional quality. His TypeScript skills and attention to type safety prevented countless bugs. The Material-UI components he built are still in use across our products.",
     image: MaleAvator,
-    name: "Mohsin Raza",
-    role: "Senior Software Engineer",
+    name: "Ayesha Rahman",
+    role: "Founder, GlamMate AI",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "As a senior engineer, Zeeshan mentored our junior developers while delivering complex features for PrescribeNow. His knowledge of healthcare compliance and secure coding practices was invaluable for our HIPAA-compliant platform.",
     image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Robert Taylor",
+    role: "Engineering Manager, Veraio Inc.",
   },
   {
-    text: "Haider is a talented React Native developer with a strong grasp of building clean, user-friendly mobile applications. He is proactive, reliable, and works well within a team. His problem-solving skills and commitment to quality make him a valuable asset. I highly recommend Haider for any React Native or mobile development role.",
+    text: "Zeeshan's automation scripts using Selenium saved our QA team hundreds of hours. His Python skills combined with frontend expertise make him a rare full-stack talent who understands the entire development lifecycle.",
     image: MaleAvator,
-    name: "Muhammad Hussain",
-    role: "Python Developer",
+    name: "Lisa Park",
+    role: "QA Lead, Step Robotics",
   },
   {
-    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    text: "The solar installation portal Zeeshan built at Step Robotics was a game-changer. His Redux state management handled complex calculations for ROI analysis flawlessly. Clean, maintainable code throughout.",
     image: MaleAvator,
-    name: "Mohsin Raza",
-    role: "Senior Software Engineer",
+    name: "Hassan Malik",
+    role: "Project Manager, Step Robotics",
+  },
+  {
+    text: "Zeeshan's contributions to our open-source DevDoc project were outstanding. He reviewed PRs thoughtfully, wrote comprehensive documentation, and built reusable components that the community still benefits from.",
+    image: MaleAvator,
+    name: "David Kumar",
+    role: "Open Source Contributor",
+  },
+  {
+    text: "What sets Zeeshan apart is his client communication skills. He translates technical concepts for stakeholders while delivering exactly what they need. Our telehealth platform succeeded because of his collaborative approach.",
+    image: MaleAvator,
+    name: "Emily Zhang",
+    role: "Client Success Manager",
+  },
+  {
+    text: "Zeeshan's FastAPI and Python skills complemented his React expertise perfectly. He built end-to-end features for our AI platform, from database models to responsive UI. A true full-stack problem solver.",
+    image: MaleAvator,
+    name: "Usman Farooq",
+    role: "Tech Lead, AI Startup",
+  },
+  {
+    text: "I supervised Zeeshan's MS thesis on adaptive web crawling. His Selenium-based bot demonstrated innovative approaches to dynamic content extraction. His research skills translate well to industry problem-solving.",
+    image: MaleAvator,
+    name: "Prof. Amjad Iqbal",
+    role: "GIFT University",
+  },
+  {
+    text: "Zeeshan optimized our PostgreSQL queries and Spring Boot APIs, reducing load times by 60%. His performance tuning skills combined with frontend expertise delivered a noticeably faster user experience.",
+    image: MaleAvator,
+    name: "Nadia Hussain",
+    role: "DevOps Engineer, Healthcare Platform",
+  },
+  {
+    text: "From JIRA ticket refinement to production deployment, Zeeshan follows best practices. His Git workflows are clean, his PRs are well-documented, and his code reviews help elevate the entire team's standards.",
+    image: MaleAvator,
+    name: "Tariq Mehmood",
+    role: "Senior Developer, DigiMark",
   },
 ];
 
@@ -377,53 +406,60 @@ export const ExperienceSectionSubHeading =
 export const ExperienceData = [
   {
     company: "DigiMark Developers",
-    position: "Junior Software Engineer",
-    duration: "Dec 2024 - Present",
-    location: "Johar Town, Lahore, Pakistan",
+    position: "Sr. Software Engineer",
+    duration: "Oct 2025 – Present",
+    location: "Lahore, Pakistan",
     description:
-      "Acquired proficiency in Tailwind CSS, JavaScript, TypeScript, React, React Native and Expo. Gained hands-on experience in developing visually appealing and user-friendly web and mobile interfaces. Crafted responsive web designs that enhance user experience.",
+      "Lead frontend development for AI-powered SaaS platforms using React.js, TypeScript, and Redux. Integrated LangChain and RAG-based AI pipelines into production web interfaces. Developed and consumed RESTful APIs as a full stack contributor, bridging React frontends with Python-based AI backends. Built responsive, component-driven UIs with a focus on performance, accessibility, and clean design.",
     technologies: [
-      "Tailwind CSS",
       "React",
-      "JavaScript",
       "TypeScript",
-      "React Native",
-      "Expo",
-      "Redux Toolkit",
-      "GitHub",
+      "Redux",
+      "Material-UI",
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "RAG",
+      "REST APIs",
+      "Git",
     ],
     type: "current",
   },
   {
-    company: "MikroStar Tech (SMC-Pvt.) Ltd.",
-    position: "Mobile Application Development - Internship",
-    duration: "Oct 2023 - Jan 2024",
-    location: "Green Acres Housing Society, Lahore, Pakistan",
+    company: "Veraio Inc.",
+    position: "Sr. Software Engineer",
+    duration: "Oct 2021 – Sep 2025",
+    location: "Lahore, Pakistan",
     description:
-      "Developed interactive mobile applications using Android Studio, Java, JavaScript, and Firebase. Dedicated significant time to mastering React Native for enhanced mobile solutions. Completed a comprehensive project demonstrating advanced mobile app development skills.",
+      "Led frontend development for a unified e-prescription and telehealth platform. Built modular React components using Material-UI and Redux. Integrated REST APIs and maintained backend services using Spring Boot and PostgreSQL. Implemented appointment scheduling and patient-provider interaction features. Developed automation scripts using Selenium. Communicated with clients to gather requirements and ensure alignment between technical solutions and business needs.",
     technologies: [
+      "React",
+      "Redux",
+      "Material-UI",
       "JavaScript",
-      "React Native",
-      "Android Studio",
-      "Firebase",
-      "GitHub",
+      "TypeScript",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Selenium",
+      "Git",
+      "GitHub Copilot",
     ],
     type: "previous",
   },
   {
-    company: "Cosmosoft Business Solutions Pvt. Ltd.",
-    position: "Front-End Web Development - Internship",
-    duration: "July 2022 - Sep 2022",
-    location: "Johar Town, Lahore, Pakistan",
+    company: "Step Robotics",
+    position: "Frontend Developer",
+    duration: "Mar 2021 – Sep 2021",
+    location: "Lahore, Pakistan",
     description:
-      "Acquired proficiency in HTML, CSS, Tailwind CSS, Bootstrap, and jQuery. Gained hands-on experience in developing visually appealing and user-friendly web interfaces. Crafted responsive web designs that enhance user experience.",
+      "Developed StepSolar Installer-CLI Portal using React and Redux for solar installation companies. Built features for solar production forecasts, ROI/payback analysis, and pricing tools. Enhanced component reusability and UI consistency across the application.",
     technologies: [
-      "HTML",
-      "CSS",
-      "Tailwind CSS",
-      "Bootstrap",
-      "jQuery",
+      "React",
+      "Redux",
+      "REST APIs",
       "JavaScript",
+      "Git",
     ],
     type: "previous",
   },
@@ -437,155 +473,155 @@ export const AboutSectionSkillsHeading = "My Skills & Tools";
 export const SkillsData1 = [
   {
     id: 1,
-    name: "Android Studio",
-    icon: AndroidStudioIcon,
-  },
-  {
-    id: 2,
-    name: "BootStrap",
-    icon: BootstrapIcon,
-  },
-  {
-    id: 3,
-    name: "Chrome",
-    icon: ChromeIcon,
-  },
-  {
-    id: 4,
-    name: "CSS",
-    icon: CSSIcon,
-  },
-  {
-    id: 5,
-    name: "Expo",
-    icon: ExpoIcon,
-  },
-  {
-    id: 6,
-    name: "Firebase",
-    icon: FirebaseIcon,
-  },
-  {
-    id: 7,
-    name: "Github",
-    icon: GithubIcon,
-  },
-  {
-    id: 8,
-    name: "HTML",
-    icon: HTMLIcon,
-  },
-  {
-    id: 9,
-    name: "JavaScript",
-    icon: JavaScriptIcon,
-  },
-  {
-    id: 10,
     name: "React",
     icon: ReactIcon,
   },
   {
-    id: 11,
-    name: "React Native",
-    icon: ReactIcon,
-  },
-  {
-    id: 12,
-    name: "Redux Toolkit",
+    id: 2,
+    name: "Redux",
     icon: ReduxIcon,
   },
   {
-    id: 13,
-    name: "Tailwind CSS",
-    icon: TailwindCSSIcon,
-  },
-  {
-    id: 14,
+    id: 3,
     name: "TypeScript",
     icon: TypeScriptIcon,
   },
   {
-    id: 15,
+    id: 4,
+    name: "JavaScript",
+    icon: JavaScriptIcon,
+  },
+  {
+    id: 5,
+    name: "HTML",
+    icon: HTMLIcon,
+  },
+  {
+    id: 6,
+    name: "CSS",
+    icon: CSSIcon,
+  },
+  {
+    id: 7,
+    name: "Tailwind CSS",
+    icon: TailwindCSSIcon,
+  },
+  {
+    id: 8,
+    name: "BootStrap",
+    icon: BootstrapIcon,
+  },
+  {
+    id: 9,
+    name: "Material-UI",
+    icon: ReactIcon,
+  },
+  {
+    id: 10,
+    name: "Git",
+    icon: GithubIcon,
+  },
+  {
+    id: 11,
+    name: "Github",
+    icon: GithubIcon,
+  },
+  {
+    id: 12,
+    name: "GitHub Copilot",
+    icon: VSCodeIcon,
+  },
+  {
+    id: 13,
     name: "VS Code",
+    icon: VSCodeIcon,
+  },
+  {
+    id: 14,
+    name: "Chrome DevTools",
+    icon: ChromeIcon,
+  },
+  {
+    id: 15,
+    name: "Postman",
     icon: VSCodeIcon,
   },
 ];
 export const SkillsData2 = [
   {
     id: 1,
-    name: "VS Code",
-    icon: VSCodeIcon,
+    name: "Spring Boot",
+    icon: ReactIcon,
   },
   {
     id: 2,
-    name: "TypeScript",
-    icon: TypeScriptIcon,
+    name: "Java",
+    icon: ReactIcon,
   },
   {
     id: 3,
-    name: "Tailwind CSS",
-    icon: TailwindCSSIcon,
+    name: "FastAPI",
+    icon: ReactIcon,
   },
   {
     id: 4,
-    name: "Redux Toolkit",
-    icon: ReduxIcon,
+    name: "Python",
+    icon: ReactIcon,
   },
   {
     id: 5,
-    name: "React Native",
+    name: "LangChain",
     icon: ReactIcon,
   },
   {
     id: 6,
-    name: "React",
+    name: "RAG",
     icon: ReactIcon,
   },
   {
     id: 7,
-    name: "JavaScript",
-    icon: JavaScriptIcon,
+    name: "PostgreSQL",
+    icon: FirebaseIcon,
   },
   {
     id: 8,
-    name: "HTML",
-    icon: HTMLIcon,
+    name: "MySQL",
+    icon: FirebaseIcon,
   },
   {
     id: 9,
-    name: "Github",
-    icon: GithubIcon,
+    name: "MongoDB",
+    icon: FirebaseIcon,
   },
   {
     id: 10,
+    name: "Selenium",
+    icon: ReactIcon,
+  },
+  {
+    id: 11,
+    name: "REST APIs",
+    icon: ReactIcon,
+  },
+  {
+    id: 12,
     name: "Firebase",
     icon: FirebaseIcon,
   },
   {
-    id: 11,
-    name: "Expo",
-    icon: ExpoIcon,
-  },
-  {
-    id: 12,
-    name: "CSS",
-    icon: CSSIcon,
-  },
-  {
     id: 13,
-    name: "BootStrap",
-    icon: BootstrapIcon,
+    name: "Cursor",
+    icon: VSCodeIcon,
   },
   {
     id: 14,
-    name: "Chrome",
-    icon: ChromeIcon,
+    name: "JIRA",
+    icon: VSCodeIcon,
   },
   {
     id: 15,
-    name: "Android Studio",
-    icon: AndroidStudioIcon,
+    name: "Slack",
+    icon: DiscordIcon,
   },
 ];
 export {

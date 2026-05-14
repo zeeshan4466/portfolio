@@ -42,7 +42,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-blue-500 text-white border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[105px]">
-                      haider-mukhtar
+                      zeeshan-zulfiqar-dev
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -59,7 +59,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-myPalette9 text-myPalette1 border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[105px]">
-                      Haider-Mukhtar
+                      zeeshan4466
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -76,7 +76,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-myPalette9 text-myPalette1 border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[110px]">
-                      @haidermukhtar
+                      @zeeshan4466
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -93,7 +93,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-red-500 text-white border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[120px]">
-                      haider_mukhtar_ch
+                      zeeshan.zulfiqar4466
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -133,7 +133,7 @@ const AboutSection = () => {
           </div>
           <div className='hidden lg:flex bg-white border border-myPalette2 shadow-lg p-6 items-center justify-center rounded-3xl mt-6'>
             <GitHubCalendar
-              username="haider-mukhtar"
+              username="zeeshan4466"
               showWeekdayLabels
               errorMessage='GitHub Contribution Data not found'
               colorScheme='light'

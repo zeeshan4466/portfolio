@@ -141,7 +141,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
             );
           })}
           <a
-            href="https://wa.me/+92344603782?text=Hello, How can I help you?"
+            href="https://wa.me/+923064466521?text=Hello, How can I help you?"
             target="_blank"
             className="ml-14"
           >
@@ -210,7 +210,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
               </DropdownMenuContent>
             </DropdownMenu>
             <a
-              href="https://wa.me/+92344603782?text=Hello, How can I help you?"
+              href="https://wa.me/+923064466521?text=Hello, How can I help you?"
               target="_blank"
             >
               <ArrowUpIcon />
