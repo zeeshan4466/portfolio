@@ -19,12 +19,12 @@ import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
 import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
 import MediumIcon from "../assets/img/icons/social-icons/medium.png";
 
-import EventHubProject from "../assets/img/projects/eventhubProject.png";
-import MaxFitProject from "../assets/img/projects/maxfitProject.png";
-import TagExtractorProject from "../assets/img/projects/tagextractor.png";
-import PushNotificationProject from "../assets/img/projects/pushnotification.png";
-import LailaAppProject from "../assets/img/projects/lailaapp.png";
-import AppleHealthExpoProject from "../assets/img/projects/apple-health-expo.png";
+import GlammateFull from "../assets/img/projects/glammate-full.png";
+import SurviveAppFull from "../assets/img/projects/survive-app-full.png";
+import PimpactFull from "../assets/img/projects/pimpact-full.png";
+import PrescribeNowFull from "../assets/img/projects/prescribenow-full.png";
+import TelehealthYouFull from "../assets/img/projects/telehealthyou-full.png";
+import ScintiaFull from "../assets/img/projects/scintia-full.png";
 
 import web1 from "../assets/img/sliderwebp/web1.webp";
 import web2 from "../assets/img/sliderwebp/web2.webp";
@@ -213,10 +213,10 @@ export const ProjectCardsData = [
     id: 1,
     title: "PimPact",
     description:
-      "AI-Powered Product Information Management platform (pimpact.io) that automates product data enrichment, generates SEO-optimized descriptions using LLM pipelines, and syncs catalogs to Shopify, WooCommerce, and Odoo. Built React/TypeScript frontend with FastAPI backend integration.",
-    image: EventHubProject,
+      "AI-Powered PIM platform that automates product data enrichment with LLM pipelines. Syncs catalogs to Shopify, WooCommerce, and Odoo. Built with React, TypeScript, and FastAPI.",
+    image: PimpactFull,
     type: "Professional",
-    year: "2024-2025",
+    year: "2025",
     technologies: ["React", "TypeScript", "FastAPI", "LangChain", "Material-UI", "REST APIs"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6", "#E535AB", "#61DAFB"],
     projectUrl: "https://pimpact.io",
@@ -226,10 +226,10 @@ export const ProjectCardsData = [
     id: 2,
     title: "Survive the Trap",
     description:
-      "AI Conversational Platform (survivethetrap.ai) - Developed complete React.js frontend for AI-powered conversational platform with responsive chat interface backed by LangChain and RAG-based backend. Integrated streaming API responses and dynamic UI state management.",
-    image: MaxFitProject,
+      "AI conversational platform with responsive chat interface powered by LangChain and RAG backend. Features real-time streaming API responses and dynamic state management.",
+    image: SurviveAppFull,
     type: "Professional",
-    year: "2024-2025",
+    year: "2026",
     technologies: ["React", "JavaScript", "LangChain", "RAG", "REST APIs"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6", "#E535AB"],
     projectUrl: "https://survivethetrap.ai",
@@ -239,10 +239,10 @@ export const ProjectCardsData = [
     id: 3,
     title: "GlamMate AI",
     description:
-      "AI Beauty Platform (glammateai.com) - Frontend for AI-powered beauty platform delivering personalized recommendations and consultations using RAG-based AI backend. Contributed to API development connecting React UI to intelligent recommendation pipelines.",
-    image: TagExtractorProject,
+      "AI beauty platform delivering personalized recommendations via RAG-based backend. Built responsive React frontend with intelligent recommendation pipelines.",
+    image: GlammateFull,
     type: "Professional",
-    year: "2024-2025",
+    year: "2025-2026",
     technologies: ["React", "TypeScript", "LangChain", "RAG", "REST APIs", "Material-UI"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6", "#E535AB", "#61DAFB"],
     projectUrl: "https://glammateai.com",
@@ -252,8 +252,8 @@ export const ProjectCardsData = [
     id: 4,
     title: "PrescribeNow",
     description:
-      "E-Prescription & Telehealth Platform (prescribenow.com) - Designed reusable React components for patient and provider dashboards, appointment scheduling, and prescription management. Managed state with Redux and integrated Spring Boot backend APIs.",
-    image: PushNotificationProject,
+      "E-prescription and telehealth platform with patient/provider dashboards, scheduling, and prescription management. Built with React, Redux, and Spring Boot.",
+    image: PrescribeNowFull,
     type: "Professional",
     year: "2021-2025",
     technologies: ["React", "Redux", "Material-UI", "TypeScript", "Spring Boot", "PostgreSQL"],
@@ -265,10 +265,10 @@ export const ProjectCardsData = [
     id: 5,
     title: "TeleHealthYou",
     description:
-      "Virtual Care Platform (telehealthyou.com) - Led React.js frontend development for patient-facing virtual care platform supporting remote consultations, appointment scheduling, and secure provider-patient communication. Built reusable, responsive UI components.",
-    image: LailaAppProject,
+      "Virtual care platform for remote consultations with secure provider-patient communication. Led frontend development with React, Redux, and responsive UI components.",
+    image: TelehealthYouFull,
     type: "Professional",
-    year: "2021-2025",
+    year: "2026",
     technologies: ["React", "JavaScript", "Redux", "Material-UI", "REST APIs"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6", "#61DAFB"],
     projectUrl: "https://telehealthyou.com",
@@ -276,28 +276,15 @@ export const ProjectCardsData = [
   },
   {
     id: 6,
-    title: "Compare It",
+    title: "Scintia Lab",
     description:
-      "Price Comparison Web App - Developed responsive frontend and implemented backend crawling logic using Python for real-time price comparisons across e-commerce platforms. BS Final Year Project.",
-    image: AppleHealthExpoProject,
-    type: "Academic",
-    year: "2018",
-    technologies: ["React", "Python", "REST APIs", "BeautifulSoup", "Requests"],
-    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#3776AB"],
-    projectUrl: "",
-    githubUrl: "",
-  },
-  {
-    id: 7,
-    title: "DevDoc",
-    description:
-      "Tkxel Open Source Project - Led frontend development, built complex UI components, and collaborated with contributors on GitHub.",
-    image: EventHubProject,
-    type: "Open Source",
-    year: "2021",
-    technologies: ["React", "JavaScript", "GitHub"],
-    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl: "",
+      "Custom SaaS solutions, AI integrations, and automation systems designed to drive measurable business value. End-to-end support from strategy and design to development, deployment, and scaling.",
+    image: ScintiaFull,
+    type: "Professional",
+    year: "2025-2026",
+    technologies: ["React", "TypeScript", "AI Integration", "SaaS", "Automation"],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6", "#E535AB", "#61DAFB"],
+    projectUrl: "https://scintia.ai/",
     githubUrl: "",
   },
 ];
