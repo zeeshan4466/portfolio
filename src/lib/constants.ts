@@ -18,6 +18,15 @@ import LinkedInIcon from "../assets/img/icons/social-icons/linkedin.png";
 import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
 import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
 import MediumIcon from "../assets/img/icons/social-icons/medium.png";
+import SpringBootIcon from "../assets/img/icons/skills-tools/spring-boot.png";
+import GithubCopilotIcon from "../assets/img/icons/skills-tools/github-copilot.png";
+import MongoDBIcon from "../assets/img/icons/skills-tools/mongodb.png";
+import SeleniumIcon from "../assets/img/icons/skills-tools/selenium.png";
+import PostGressIcon from "../assets/img/icons/skills-tools/postgresql.png";
+import JavaIcon from "../assets/img/icons/skills-tools/java.png";
+import MySQLIcon from "../assets/img/icons/skills-tools/mysql.png";
+import PythonIcon from "../assets/img/icons/skills-tools/python.png";
+import PostmanIcon from "../assets/img/icons/skills-tools/postman.png";
 
 import GlammateFull from "../assets/img/projects/glammate-full.png";
 import SurviveAppFull from "../assets/img/projects/survive-app-full.png";
@@ -396,116 +405,71 @@ export const SkillsData1 = [
   },
   {
     id: 9,
-    name: "Material-UI",
-    icon: ReactIcon,
-  },
-  {
-    id: 10,
-    name: "Git",
-    icon: GithubIcon,
-  },
-  {
-    id: 11,
     name: "Github",
     icon: GithubIcon,
   },
   {
-    id: 12,
+    id: 10,
     name: "GitHub Copilot",
-    icon: VSCodeIcon,
+    icon: GithubCopilotIcon,
   },
   {
-    id: 13,
+    id: 11,
     name: "VS Code",
     icon: VSCodeIcon,
   },
   {
-    id: 14,
+    id: 12,
     name: "Chrome DevTools",
     icon: ChromeIcon,
   },
   {
-    id: 15,
+    id: 13,
     name: "Postman",
-    icon: VSCodeIcon,
+    icon: PostmanIcon,
   },
 ];
 export const SkillsData2 = [
   {
     id: 1,
     name: "Spring Boot",
-    icon: ReactIcon,
+    icon: SpringBootIcon,
   },
   {
     id: 2,
     name: "Java",
-    icon: ReactIcon,
+    icon: JavaIcon,
   },
   {
     id: 3,
-    name: "FastAPI",
-    icon: ReactIcon,
-  },
-  {
-    id: 4,
     name: "Python",
-    icon: ReactIcon,
+    icon: PythonIcon,
   },
   {
     id: 5,
-    name: "LangChain",
-    icon: ReactIcon,
+    name: "PostgreSQL",
+    icon: PostGressIcon,
   },
   {
     id: 6,
-    name: "RAG",
-    icon: ReactIcon,
+    name: "MySQL",
+    icon: MySQLIcon,
   },
   {
     id: 7,
-    name: "PostgreSQL",
-    icon: FirebaseIcon,
+    name: "MongoDB",
+    icon: MongoDBIcon,
   },
   {
     id: 8,
-    name: "MySQL",
-    icon: FirebaseIcon,
+    name: "Selenium",
+    icon: SeleniumIcon,
   },
   {
     id: 9,
-    name: "MongoDB",
-    icon: FirebaseIcon,
-  },
-  {
-    id: 10,
-    name: "Selenium",
-    icon: ReactIcon,
-  },
-  {
-    id: 11,
-    name: "REST APIs",
-    icon: ReactIcon,
-  },
-  {
-    id: 12,
     name: "Firebase",
     icon: FirebaseIcon,
-  },
-  {
-    id: 13,
-    name: "Cursor",
-    icon: VSCodeIcon,
-  },
-  {
-    id: 14,
-    name: "JIRA",
-    icon: VSCodeIcon,
-  },
-  {
-    id: 15,
-    name: "Slack",
-    icon: DiscordIcon,
-  },
+  }
 ];
 export {
   LinkedInIcon,
