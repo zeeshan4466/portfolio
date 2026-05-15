@@ -32,10 +32,10 @@ const ProjectsSection = () => {
           viewport={{ once: true }}
           className="relative z-[3] pt-32 items-center justify-center flex flex-col bg-rd-200 pb-32"
         >
-          <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
+          <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9 dark:text-myPalette1 transition-colors duration-300">
             {ProjectsSectionHeading}
           </div>
-          <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
+          <p className="text-myPalette9 dark:text-myPalette4 text-base md:text-lg font-medium text-center font-myMainFont mt-3 transition-colors duration-300">
             {ProjectsSectionSubHeading}
           </p>
           <Link target="_blank" to={GitHubProfile}>
@@ -56,28 +56,28 @@ const ProjectsSection = () => {
                 >
                   <div
                     className={cn(
-                      "h-[80%] sm:h-[70%] bg-white flex-col lg:flex-row gap-6 lg:gap-8 aspect-video p-6 md:p-8 flex w-11/12 rounded-3xl mx-auto relative border border-myPalette2 backdrop-blur-sm shadow-lg pointer-events-auto"
+                      "h-[80%] sm:h-[70%] bg-white dark:bg-myPalette8 flex-col lg:flex-row gap-6 lg:gap-8 aspect-video p-6 md:p-8 flex w-11/12 rounded-3xl mx-auto relative border border-myPalette2 dark:border-myPalette7 backdrop-blur-sm shadow-lg pointer-events-auto transition-colors duration-300"
                     )}
                   >
                     <div className="flex-1 flex flex-col justify-between font-myMainFont">
                       <div>
-                        <p className="font-bold text-sm md:text-md mb-2 flex flex-row items-center gap-2">
+                        <p className="font-bold text-sm md:text-md mb-2 flex flex-row items-center gap-2 text-myPalette9 dark:text-myPalette1 transition-colors duration-300">
                           {project.type}
-                          <p className="h-5 w-0.5 bg-myPalette6" />
+                          <p className="h-5 w-0.5 bg-myPalette6 dark:bg-myPalette5 transition-colors duration-300" />
                           {project.year}
                         </p>
-                        <h3 className="font-bold text-2xl md:text-3xl">
+                        <h3 className="font-bold text-2xl md:text-3xl text-myPalette9 dark:text-myPalette1 transition-colors duration-300">
                           {project.title}
                         </h3>
-                        <div className="w-full h-[1px] bg-myPalette6 my-3 lg:my-5" />
-                        <p className="font-normal text-base md:text-md">
+                        <div className="w-full h-[1px] bg-myPalette6 dark:bg-myPalette5 my-3 lg:my-5 transition-colors duration-300" />
+                        <p className="font-normal text-base md:text-md text-myPalette9 dark:text-myPalette4 transition-colors duration-300">
                           {project.description}
                         </p>
                         <div className="flex flex-wrap items-center mt-3 lg:mt-5">
                           {project.technologies.map((techstack, techIndex) => (
                             <div
                               key={techIndex}
-                              className="flex items-center text-myPalette9 px-3 text-xs py-1 border border-myPalette9 rounded-full mr-2 mb-2"
+                              className="flex items-center text-myPalette9 dark:text-myPalette4 px-3 text-xs py-1 border border-myPalette9 dark:border-myPalette5 rounded-full mr-2 mb-2 transition-colors duration-300"
                             >
                               <div
                                 className="rounded-full h-2 w-2 mr-2"

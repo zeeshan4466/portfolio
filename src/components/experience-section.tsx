@@ -41,10 +41,10 @@ const ExperienceSection = () => {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
-              <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
+              <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9 dark:text-myPalette1 transition-colors duration-300">
                 {ExperienceSectionHeading}
               </div>
-              <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
+              <p className="text-myPalette9 dark:text-myPalette4 text-base md:text-lg font-medium text-center font-myMainFont mt-3 transition-colors duration-300">
                 {ExperienceSectionSubHeading}
               </p>
             </motion.div>
@@ -62,7 +62,7 @@ const ExperienceSection = () => {
                 className="flex justify-start pt-10 md:pt-20 md:gap-0"
               >
                 <div className="sticky flex flex-col md:flex-row z-40 items-cente top-40 self-start max-w-xs lg:max-w-sm md:w-full">
-                  <div className="h-12 absolute left-3 md:left-3 w-12 rounded-full bg-white border border-myPalette2 flex items-center justify-center shadow-lg">
+                  <div className="h-12 absolute left-3 md:left-3 w-12 rounded-full bg-white dark:bg-myPalette8 border border-myPalette2 dark:border-myPalette7 flex items-center justify-center shadow-lg transition-colors duration-300">
                     <div
                       className={`h-9 w-9 rounded-full flex items-center justify-center ${
                         experience.type === "current"
@@ -74,7 +74,7 @@ const ExperienceSection = () => {
                     </div>
                   </div>
                   <div className="hidden md:block md:pl-18">
-                    <h3 className="text-2xl md:text-3xl font-bold text-myPalette9 mb-1">
+                    <h3 className="text-2xl md:text-3xl font-bold text-myPalette9 dark:text-myPalette1 mb-1 transition-colors duration-300">
                       {experience.company}
                     </h3>
                     <Badge
@@ -94,10 +94,10 @@ const ExperienceSection = () => {
                 </div>
 
                 <div className="relative pl-18 md:pl-4 w-full">
-                  <Card className="bg-white border border-myPalette2 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+                  <Card className="bg-white dark:bg-myPalette8 border border-myPalette2 dark:border-myPalette7 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
                     <CardContent className="p-6">
                       <div className="md:hidden mb-4">
-                        <h3 className="text-xl font-bold text-myPalette9 mb-2">
+                        <h3 className="text-xl font-bold text-myPalette9 dark:text-myPalette1 mb-2 transition-colors duration-300">
                           {experience.company}
                         </h3>
                         <Badge
@@ -119,12 +119,12 @@ const ExperienceSection = () => {
 
                       <div className="space-y-4">
                         <div>
-                          <h4 className="text-xl font-bold text-myPalette9 mb-2 flex md:items-center gap-2">
-                            <Building2 className="h-5 w-5 text-myPalette9" />
+                          <h4 className="text-xl font-bold text-myPalette9 dark:text-myPalette1 mb-2 flex md:items-center gap-2 transition-colors duration-300">
+                            <Building2 className="h-5 w-5 text-myPalette9 dark:text-myPalette1 transition-colors duration-300" />
                             {experience.position}
                           </h4>
 
-                          <div className="flex flex-col sm:flex-row gap-4 text-sm text-myPalette9/80 mb-4">
+                          <div className="flex flex-col sm:flex-row gap-4 text-sm text-myPalette9/80 dark:text-myPalette4/80 mb-4 transition-colors duration-300">
                             <div className="flex md:items-center gap-2">
                               <Calendar className="h-4 w-4" />
                               {experience.duration}
@@ -136,12 +136,12 @@ const ExperienceSection = () => {
                           </div>
                         </div>
 
-                        <p className="text-myPalette9/80 leading-relaxed">
+                        <p className="text-myPalette9/80 dark:text-myPalette4/80 leading-relaxed transition-colors duration-300">
                           {experience.description}
                         </p>
 
                         <div>
-                          <h5 className="font-semibold text-myPalette9 mb-1">
+                          <h5 className="font-semibold text-myPalette9 dark:text-myPalette1 mb-1 transition-colors duration-300">
                             Technologies & Skills
                           </h5>
                           <div className="flex flex-wrap gap-2">
@@ -156,7 +156,7 @@ const ExperienceSection = () => {
                                 }}
                                 viewport={{ once: true }}
                               >
-                                <Badge className="hover:bg-myPalette1 bg-white border border-myPalette5 text-myPalette9/80 transition-colors">
+                                <Badge className="hover:bg-myPalette1 dark:hover:bg-myPalette7 bg-white dark:bg-myPalette8 border border-myPalette5 dark:border-myPalette6 text-myPalette9/80 dark:text-myPalette4/80 transition-colors">
                                   {tech}
                                 </Badge>
                               </motion.div>

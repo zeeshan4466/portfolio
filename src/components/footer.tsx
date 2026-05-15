@@ -16,7 +16,7 @@ const Footer = () => {
             </a>
           </div>
           <div className='flex flex-row gap-1 justify-center items-center py-4'>
-            <p className='text-myPalette9 text-sm font-myMainFont'>@ {year} {fullName}</p>
+            <p className='text-myPalette9 dark:text-myPalette4 text-sm font-myMainFont transition-colors duration-300'>@ {year} {fullName}</p>
             <a href={LinkedInProfile} target='_blank'>
               <img
                 className='h-5 aspect-square'

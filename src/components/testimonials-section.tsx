@@ -28,10 +28,10 @@ const TestimonialsSection = () => {
               viewport={{ once: true }}
               className="flex flex-col items-center justify-center mx-auto"
             >
-              <div className="relative font-myMainFont text-center flex-1 w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
+              <div className="relative font-myMainFont text-center flex-1 w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9 dark:text-myPalette1 transition-colors duration-300">
                 {TestimonialsSectionHeading}
               </div>
-              <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
+              <p className="text-myPalette9 dark:text-myPalette4 text-base md:text-lg font-medium text-center font-myMainFont mt-3 transition-colors duration-300">
                 {TestimonialsSectionSubHeading}
               </p>
             </motion.div>

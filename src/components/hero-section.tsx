@@ -11,9 +11,9 @@ const HeroSection = () => {
         <div className="mt-40 md:mt-52 mb-32">
           <p
             dangerouslySetInnerHTML={{ __html: HeroSectionHeading }}
-            className="text-myPalette9 text-5xl md:text-7xl font-semibold text-center font-myMainFont tracking-tight"
+            className="text-myPalette9 dark:text-myPalette1 text-5xl md:text-7xl font-semibold text-center font-myMainFont tracking-tight transition-colors duration-300"
           />
-          <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont my-10">
+          <p className="text-myPalette9 dark:text-myPalette4 text-base md:text-lg font-medium text-center font-myMainFont my-10 transition-colors duration-300">
             {HeroSectionSubHeading}
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4 justify-center">

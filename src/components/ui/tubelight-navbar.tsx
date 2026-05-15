@@ -85,7 +85,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
           className
         )}
       >
-        <div className="flex items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
+        <div className="flex items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg dark:border-myPalette7 dark:bg-myPalette8/50">
           <a
             href={"/#Hero"}
             className="flex items-center gap-2 mr-14"
@@ -95,7 +95,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
               src={profilePhoto}
               alt={`${fullName} Profile Photo`}
             />
-            <p className="font-myNameFont text-xl text-myPalette9">
+            <p className="font-myNameFont text-xl text-myPalette9 dark:text-myPalette1">
               {firstName}
             </p>
           </a>
@@ -110,9 +110,9 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                 onClick={() => setActiveTab(item.name)}
                 className={cn(
                   "relative text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
-                  "text-myPalette9/80 hover:text-myPalette8 hover:bg-myPalette2",
+                  "text-myPalette9/80 hover:text-myPalette8 hover:bg-myPalette2 dark:text-myPalette1/80 dark:hover:text-myPalette1 dark:hover:bg-myPalette7",
                   isActive &&
-                    "bg-myPalette9 hover:bg-myPalette9 text-myPalette1 hover:text-myPalette1"
+                    "bg-myPalette9 backdrop-blur-sm hover:bg-myPalette9 text-myPalette1 hover:text-myPalette1 dark:bg-[#3A3B47] dark:hover:bg-[#3A3B47] dark:text-white dark:hover:text-white"
                 )}
               >
                 <span className="hidden md:inline">{item.name}</span>
@@ -122,7 +122,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                 {isActive && (
                   <motion.div
                     layoutId="lamp"
-                    className="absolute inset-0 w-full bg-myPalette9 rounded-full -z-10"
+                    className="absolute inset-0 w-full bg-myPalette9 dark:bg-[#3A3B47] rounded-full -z-10"
                     initial={false}
                     transition={{
                       type: "spring",
@@ -130,10 +130,10 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                       damping: 30,
                     }}
                   >
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-1 bg-myPalette9 rounded-t-full">
-                      <div className="absolute w-12 h-6 bg-myPalette9/20 rounded-full blur-md -top-2 -left-2" />
-                      <div className="absolute w-8 h-6 bg-myPalette9/20 rounded-full blur-sm -top-1" />
-                      <div className="absolute w-4 h-4 bg-myPalette9/20 rounded-full blur-sm top-0 left-2" />
+                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-1 bg-myPalette9 dark:bg-white rounded-t-full">
+                      <div className="absolute w-12 h-6 bg-myPalette9/20 dark:bg-white/30 rounded-full blur-md -top-2 -left-2" />
+                      <div className="absolute w-8 h-6 bg-myPalette9/20 dark:bg-white/30 rounded-full blur-sm -top-1" />
+                      <div className="absolute w-4 h-4 bg-myPalette9/20 dark:bg-white/30 rounded-full blur-sm top-0 left-2" />
                     </div>
                   </motion.div>
                 )}
@@ -156,19 +156,19 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
           className
         )}
       >
-        <div className="w-full flex justify-between items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
+        <div className="w-full flex justify-between items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg dark:border-myPalette7 dark:bg-myPalette8/50">
           <a
             href={"/#Hero"}
-            className="flex items-center gap-2 mr-14"
+            className="flex items-center gap-2"
           >
-            <img
-              className="w-10 md:w-12 aspect-square object-cover rounded-full"
-              src={profilePhoto}
-              alt={`${fullName} Profile Photo`}
-            />
-            <p className="font-myNameFont text-lg md:text-xl text-myPalette9">
-              {firstName}
-            </p>
+              <img
+                className="w-10 md:w-12 aspect-square object-cover rounded-full"
+                src={profilePhoto}
+                alt={`${fullName} Profile Photo`}
+              />
+              <p className="font-myNameFont text-lg md:text-xl text-myPalette9 dark:text-myPalette1">
+                {firstName}
+              </p>
           </a>
           <div className="flex flex-row items-center">
             <DropdownMenu>
@@ -194,9 +194,9 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                         onClick={() => setActiveTab(item.name)}
                         className={cn(
                           "relative text-sm md:text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
-                          "text-myPalette9/80 hover:text-myPalette8 hover:bg-myPalette2",
+                          "text-myPalette9/80 hover:text-myPalette8 hover:bg-myPalette2 dark:text-myPalette1/80 dark:hover:text-myPalette1 dark:hover:bg-myPalette7",
                           isActive &&
-                            "bg-myPalette9 hover:bg-myPalette9 text-myPalette1 hover:text-myPalette1"
+                            "bg-myPalette9 hover:bg-myPalette9 text-myPalette1 hover:text-myPalette1 dark:bg-[#3A3B47] dark:hover:bg-[#3A3B47] dark:text-white dark:hover:text-white"
                         )}
                       >
                         <span className="hidde md:inline">{item.name}</span>
